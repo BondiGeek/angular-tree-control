@@ -23,8 +23,8 @@ treecontrol ul {
 
 treecontrol li {
     position: relative;
-    padding: 0;
-    line-height: 40px;
+    padding: 0 0 0 20px;
+    line-height: 52px;
 }
 
 treecontrol li.tree-expanded i.tree-leaf-head, treecontrol li.tree-collapsed i.tree-leaf-head {display:none;}
@@ -46,22 +46,22 @@ treecontrol li .tree-unselectable {
 }
 
 treecontrol.tree-classic li.tree-expanded i.tree-branch-head {
-    padding: 5px 15px;
-    background: url("../images/folder.png") no-repeat;
+    padding: 20px 25px;
+    background: url("/assets/images/folder-open.png") no-repeat;
 }
 
 treecontrol.tree-classic li.tree-collapsed i.tree-branch-head {
-    padding: 5px 15px;
-    background: url("../images/folder-closed.png") no-repeat;
+    padding: 20px 25px;
+    background: url("/assets/images/folder-closed.png") no-repeat;
 }
 
 treecontrol.tree-classic li.tree-leaf i.tree-leaf-head {
-    padding: 5px 15px;
-    background: url("../images/folder-closed.png") no-repeat;
+    padding: 20px 25px;
+    background: url("/assets/images/folder.png") no-repeat;
 }
 
 treecontrol.tree-classic li .tree-selected {
-    background-color: #aaddff;
+    /*background-color: #aaddff;*/
     font-weight: bold;
 }
 
@@ -69,14 +69,38 @@ treecontrol.tree-classic li .tree-unselectable {
     color: #ddd;
 }
 
+treecontrol.tree-classic-pages li.tree-expanded i.tree-branch-head {
+    padding: 20px 25px;
+    background: url("/assets/images/page-open.png") no-repeat;
+}
+
+treecontrol.tree-classic-pages li.tree-collapsed i.tree-branch-head {
+    padding: 20px 25px;
+    background: url("/assets/images/page-closed.png") no-repeat;
+}
+
+treecontrol.tree-classic-pages li.tree-leaf i.tree-leaf-head {
+    padding: 20px 25px;
+    background: url("/assets/images/page.png") no-repeat;
+}
+
+treecontrol.tree-classic-pages li .tree-selected {
+    /*background-color: #aaddff;*/
+    font-weight: bold;
+}
+
+treecontrol.tree-classic-pages li .tree-unselectable {
+    color: #ddd;
+}
+
 treecontrol.tree-light li.tree-expanded i.tree-branch-head {
     padding: 1px 10px;
-    background: url("../images/node-opened-2.png") no-repeat;
+    background: url("/assets/images/node-opened-2.png") no-repeat;
 }
 
 treecontrol.tree-light li.tree-collapsed i.tree-branch-head {
     padding: 1px 10px;
-    background: url("../images/node-closed-2.png") no-repeat;
+    background: url("/assets/images/node-closed-2.png") no-repeat;
 }
 
 treecontrol.tree-light li.tree-leaf i.tree-leaf-head {
@@ -95,12 +119,12 @@ treecontrol.tree-light li .tree-unselectable {
 
 treecontrol.tree-dark li.tree-expanded i.tree-branch-head {
     padding: 1px 10px;
-    background: url("../images/node-opened-light.png") no-repeat;
+    background: url("/assets/images/node-opened-light.png") no-repeat;
 }
 
 treecontrol.tree-dark li.tree-collapsed i.tree-branch-head {
     padding: 1px 10px;
-    background: url("../images/node-closed-light.png") no-repeat;
+    background: url("/assets/images/node-closed-light.png") no-repeat;
 }
 
 treecontrol.tree-dark li.tree-leaf i.tree-leaf-head {
@@ -146,17 +170,17 @@ treecontrol.tree-boot i.tree-leaf-head {
 
 treecontrol.tree-boot li.tree-expanded i.tree-branch-head {
     padding: 1px 10px;
-    background: url("../images/folder.png") no-repeat;
+    background: url("/assets/images/folder.png") no-repeat;
 }
 
 treecontrol.tree-boot li.tree-collapsed i.tree-branch-head {
     padding: 1px 10px;
-    background: url("../images/folder-closed.png") no-repeat;
+    background: url("/assets/images/folder-closed.png") no-repeat;
 }
 
 treecontrol.tree-boot li.tree-leaf i.tree-leaf-head {
     padding: 1px 10px;
-    background: url("../images/file.png") no-repeat;
+    background: url("/assets/images/file.png") no-repeat;
 }
 
 treecontrol.tree-boot .tree-label.tree-selected,
